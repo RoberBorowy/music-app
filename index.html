@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>player app</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/95eba3663f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <h1>Music player</h1>
+    <div class="player">
+        <div class="player__animation">
+            <span class="player__line stop"></span>
+            <span class="player__line stop"></span>
+            <span class="player__line stop"></span>
+            <span class="player__line stop"></span>
+        </div>
+        <div class="player__board">
+            <div class="player__board__screen">
+                <span class="player__screen__title">never give up</span>
+            </div>
+            <audio src="./audio/zayner.mp3" class="audio"></audio>
+            <div class="player__navigation">
+                <button class="btn btn__backward"><i class="fa fa-solid fa-backward"></i></button>
+                <button class="btn btn__play"> <i class="fa fas-solid fa-play " id="icon"></i></button>
+                <button class="btn btn__forward"><i class="fa fa-solid fa-forward"></i></button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
